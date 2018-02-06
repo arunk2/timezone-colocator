@@ -45,10 +45,13 @@ if __name__ == "__main__":
         return
     
     from_timezone = sys.argv
-    
-    # zone2 = 'US/Pacific'
-    # zone1 = 'Asia/Calcutta'
-    # print check_conflicts(zone1, zone2, 9)
-    
     print get_compatible_timezones(from_timezone)
     
+#     # Usage for checking conflicts b/w 2 given timezones
+#     zone2 = 'US/Pacific'
+#     zone1 = 'Asia/Calcutta'
+#     print check_conflicts(zone1, zone2, 9)
+    
+
+#     # Usage for generating all possible conflicts free timezones
+#     generate_all_compatible_timezones()
