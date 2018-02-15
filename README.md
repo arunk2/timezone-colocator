@@ -12,10 +12,12 @@ Such a sharing/colocation is possible only when we are sure that their operating
 The timezone across the globe is well known and we can identify the non-overlapping timezones easily with a program. For a given timezone one can easily list the timezones, which can be used to colocate.
 
 ## Usage
+
 ```
 $ python colocator.py  <<<TIME_ZONE>>>
+```
 
-example:
-
+### Example:
+```
 $ python colocator.py  "Asia/Kolkata"
 ```
